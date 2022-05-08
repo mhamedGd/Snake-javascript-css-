@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Snake</title>
+        <style>
+            body {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                background-color: #100d1c;
+                font-family: 'Quantico', sans-serif;
+                color: #fdfd96;
+            }
+            
+            ul{
+                list-style: none;
+                display: inline-block;
+                justify-content: center;
+            }
+            
+            li{
+                text-align: center;
+                width: 50%;
+            }
+            
+            h1{                
+                width: 100%;
+                padding-bottom: 5%;
+                padding-top: 5%;                
+                padding-left: 50%;
+                padding-right: 50%;
+                font-size: 30px;
+                text-align: center;   
+            }
+            
+            #game-board {
+                background-color: transparent;
+                width: 50vmin;
+                height: 50vmin;
+                display: grid;
+                grid-template-rows: repeat(21, 1fr);
+                grid-template-columns: repeat(21, 1fr);
+                border: 5px solid #fdfd96;
+            }
+
+            .snake {
+                background-color: #fdfd96;
+            }
+            
+            .snake-head {
+                background-color: #fdfd96;
+            }
+
+            .food {
+                background-color: #ffffff;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <ul>
+            <li><h1 id="score">00</h1></li>
+            <li>
+                <div id="container">
+                    <div id="game-board"></div>
+                </div>
+            </li>
+        </ul>
+        <script src="game.js" type="module"></script>
+    </body>
+</html>
