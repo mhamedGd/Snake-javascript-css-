@@ -1,5 +1,5 @@
-# Snake-javascript-css-
-To start the game you need to create a local server.
+# Snake-javascript-css-<br>
+To start the game you need to create a local server.<br>
 If you have python you can easily do that by:
   -Navigating to the folder containing your "index.html" in the CommandPrompt
   -Then typing "py -3 -m http.server" if your python version is above 3
