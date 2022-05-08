@@ -11,4 +11,4 @@
   <li><p>Go to your browser and type "localhost:8000" or whatever port the server would provide you.</p></li>
 </ul>
 
-<p> To check the results <a href"https://www.youtube.com/watch?v=iYX74QEdZFs"> watch this</a></p>
+<p> To check the results <a href="https://www.youtube.com/watch?v=iYX74QEdZFs"> watch this</a></p>
